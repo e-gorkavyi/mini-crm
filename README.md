@@ -2,7 +2,7 @@
 A desktop application for access to database.
 Designed to manage the flow of orders in a small manufacturing.
 
-### Notices.
+### Explanations
 For setup database you need use MySQL 8.* server. Database template script located in /mysql_DB_template.
 
 User management not added, so they need to be created on the DB server:
