@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file alias="description">cil-description.png</file>
+        <file alias="filter">cil-filter-x.png</file>
+        <file alias="reload">cil-reload.png</file>
+        <file alias="sync">cil-sync.png</file>
+    </qresource>
+</RCC>

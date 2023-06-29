@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{db849166-350f-4003-bfeb-f695de4ac7bf}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>erp.pyw</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="completer.py" />
+    <Compile Include="directory_window.py" />
+    <Compile Include="edit_partner.py" />
+    <Compile Include="edit_pay.py" />
+    <Compile Include="edit_project.py" />
+    <Compile Include="erp.pyw" />
+    <Compile Include="google-ortools-scheduler.py" />
+    <Compile Include="login.py" />
+    <Compile Include="main_form.py" />
+    <Compile Include="main_form_concept.py" />
+    <Compile Include="mip-scheduler.py" />
+    <Compile Include="mysql_connection.py" />
+    <Compile Include="resources_rc.py" />
+    <Compile Include="settings_interface.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\erp\warn-erp.txt" />
+    <Content Include="build\erp\xref-erp.html" />
+    <Content Include="cityes\ОКТМО_csv\_readme.txt" />
+    <Content Include="cityes\ОКТМО_my_sql\_readme.txt" />
+    <Content Include="icons\cil-description.png" />
+    <Content Include="icons\cil-description.svg" />
+    <Content Include="icons\cil-filter-x.png" />
+    <Content Include="icons\cil-filter-x.svg" />
+    <Content Include="icons\cil-reload.png" />
+    <Content Include="icons\cil-reload.svg" />
+    <Content Include="icons\cil-sync.png" />
+    <Content Include="icons\cil-sync.svg" />
+    <Content Include="icons\eraser.svg" />
+    <Content Include="icons\refresh.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\erp" />
+    <Folder Include="cityes\" />
+    <Folder Include="cityes\ОКТМО_csv" />
+    <Folder Include="cityes\ОКТМО_my_sql" />
+    <Folder Include="icons" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

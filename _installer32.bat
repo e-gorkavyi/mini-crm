@@ -1,0 +1,1 @@
+pyinstaller38 --onefile erp.pyw
