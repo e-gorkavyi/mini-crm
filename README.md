@@ -1,5 +1,5 @@
 # mini-crm
-A desktop application for access to database.
+The desktop application for access to database.
 Designed to manage the flow of orders in a small manufacturing.
 
 ### Explanations
